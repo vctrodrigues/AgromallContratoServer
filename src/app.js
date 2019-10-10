@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 
 mongoose
   .connect(
-    "mongodb+srv://bardaestacao:@notai2019@bardaestacao-dg3bs.mongodb.net/bardaestacao?retryWrites=true&w=majority",
+    "mongodb+srv://agromall:agromalladmin@cluster0-grxgp.mongodb.net/agromall?retryWrites=true&w=majority",
     { useNewUrlParser: true }
   )
   .then(

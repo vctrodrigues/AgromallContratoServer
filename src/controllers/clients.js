@@ -75,7 +75,7 @@ exports.update = function(req, res) {
 };
 
 exports.delete = function(req, res) {
-  Client.remove(
+  Clients.remove(
     {
       _id: req.params.client_id
     },

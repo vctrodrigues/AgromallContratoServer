@@ -9,5 +9,9 @@
     "express": "^4.17.1",
     "mongoose": "^5.7.3",
     "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/server.js",
+    "build": "node ./bin/server.js"
   }
 }
